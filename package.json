@@ -1,17 +1,14 @@
 {
-  "name": "fullstack",
+  "name": "fullstack-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A fullstack application",
   "main": "exp.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node exp.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "axios": "^1.7.5",
-    "express": "^4.19.2",
-    "react-select": "^5.8.0"
-  }
+    "express": "^4.17.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
 }
